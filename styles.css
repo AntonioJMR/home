@@ -68,7 +68,7 @@ section {
 }
 
  header h1, header p {
-	background-color: rgba(0, 0, 0, 0.2); /* Color de fondo con transparencia */
+	background-color: rgba(255, 255, 255, 0.2); /* Color de fondo con transparencia */
     padding: 10px; /* Agrega un espacio de relleno alrededor del texto */
     border-radius: 5px; /* Añade esquinas redondeadas al fondo */
 	text-shadow: 1px 1px 2px black;
