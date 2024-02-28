@@ -67,6 +67,13 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+ header h1, header p {
+	background-color: rgba(0, 0, 0, 0.2); /* Color de fondo con transparencia */
+    padding: 10px; /* Agrega un espacio de relleno alrededor del texto */
+    border-radius: 5px; /* Añade esquinas redondeadas al fondo */
+	text-shadow: 1px 1px 2px black;
+} 
+
 h1, h2 {
     color: #333;
 }
