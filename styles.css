@@ -49,8 +49,9 @@ body {
 
 header {
     background: url('imagen-fondo.jpg') center/cover fixed;
+	opacity: 1;
     color: #fff;
-	font-size: 2em;
+	/*font-size: 1em;*/
     padding: 1em 0;
     text-align: center;
     height: 100vh; /* Ajusta la altura del encabezado según tus necesidades */
@@ -69,19 +70,28 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
- header h1, header p {
+ header h1, header h3 {
 	background-color: rgba(255, 255, 255, 0.2); /* Color de fondo con transparencia */
-	padding: 10px; /* Agrega un espacio de relleno alrededor del texto */
-	/*border-radius: 15px; /* Añade esquinas redondeadas al fondo */
+	/*background-color: rgba(0, 0, 0, 0.8); /* Color de fondo con transparencia */
+	padding: 20px; /* Agrega un espacio de relleno alrededor del texto */	
 	/*text-shadow: 1px 1px 2px black; */
-
 	border-radius: 15px; /* Añade esquinas redondeadas al fondo */
-	text-shadow: 4px 6px 8px #959595;
+	
 } 
-h1 { /*font-size: 3em;*/ }
+header h1 { 
+	font-size: 5em;
+	color: #333;
+	text-shadow: 4px 6px 8px #959595;
+}
+
+header h3 { 
+
+	font-size: 3em;
+	text-shadow: 4px 6px 8px #000000;
+}
 
 h1, h2 {
-    color: #333;	
+    /*color: #333;	*/
 }
 
 .project {
